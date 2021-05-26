@@ -101,6 +101,7 @@ form {
     border: none;
     flex-grow: 1;
     outline: none;
+    font-size: 16px;
 
     @media screen and (max-width: 365px) {
       overflow: hidden;
