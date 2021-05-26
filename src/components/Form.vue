@@ -45,11 +45,24 @@ form {
 }
 
 .form__details {
+
+  @media screen and (max-width: 755px) {
+    padding: 0 10%;
+  }
+
+   @media screen and (max-width: 600px) {
+     padding: 0;
+   }
+
   .form__title {
     font-size: 3.75rem;
     font-weight: normal;
     margin: 0;
     line-height: 1;
+
+    @media screen and (max-width: 500px) {
+      font-size: 2.75rem;
+    }
   }
 
   .form__title-highlight {
@@ -67,6 +80,18 @@ form {
   border: 1px solid rgba(158, 158, 158, 0.514);
   margin: 2rem auto;
   padding: 0.3rem 0.3rem 0.3rem 1rem;
+
+  @media screen and (max-width: 1000px) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 755px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 
   &-field {
     border: none;

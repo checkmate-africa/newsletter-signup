@@ -24,10 +24,22 @@ export default {
 
   &--large {
     padding: 1rem 5rem;
+
+    @media screen and (max-width: 1000px) {
+      padding: 1rem 3rem;
+    }
   }
 
   &--medium {
     padding: 0.8rem 3rem;
+
+    @media screen and (max-width: 600px) {
+      padding: 0.6rem 2rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 0.6rem 1.2rem;
+    }
   }
   
   &--small {
