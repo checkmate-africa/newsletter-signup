@@ -93,6 +93,10 @@ form {
     width: 100%;
   }
 
+  &:focus-within {
+    border-color: var(--col-primary);
+  }
+
   &-field {
     border: none;
     flex-grow: 1;

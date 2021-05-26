@@ -22,6 +22,8 @@ export default {
   border: 1px solid var(--col-primary);
   color: var(--col-white);
 
+  outline: none;
+
   &--large {
     padding: 1rem 5rem;
 
