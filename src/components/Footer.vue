@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer__copyright">
-      <p footer__copyright> &copy; 2021, CheckMate Africa.</p>
+      <p class="footer__copyright-text"> &copy; 2021, CheckMate Africa.</p>
     </div>
 
     <div class="footer__icons">
@@ -20,6 +20,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer__copyright-text {
+  margin: 0;
 }
 
 .footer__icons {
