@@ -40,6 +40,12 @@ export default {
     @media screen and (max-width: 400px) {
       padding: 0.6rem 1.2rem;
     }
+
+    @media screen and (max-width: 365px) {
+      padding: 0.4rem 0.9rem;
+      font-size: 0.7rem;
+      width: 8rem;
+    }
   }
   
   &--small {

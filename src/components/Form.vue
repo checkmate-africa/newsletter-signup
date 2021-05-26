@@ -97,6 +97,10 @@ form {
     border: none;
     flex-grow: 1;
     outline: none;
+
+    @media screen and (max-width: 365px) {
+      overflow: hidden;
+    }
     
     ::placeholder {
       color: var(--col-secondary-grey);
